@@ -1,0 +1,241 @@
+.viewbook {
+  padding: 20px;
+  height: 140vh;
+  display: flex;
+  justify-content: center;
+
+  /* min-height: 100vh; */
+}
+
+.viewbook_box {
+  background-color: #eceff3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 98%;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.2);
+  width: 90%;
+}
+
+.viewbook_left {
+  width: 30%;
+  margin-top: 30px;
+  background-color: #f7f8fa;
+  height: 90%;
+}
+
+.viewbook_image {
+  height: 400px;
+  width: 300px;
+  border: 5px black;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+.viewbook_information {
+  width: 50%;
+  margin-left: 20px;
+  margin-top: 30px;
+  padding: 30px;
+  background-color: #f7f8fa;
+  height: 90%;
+}
+.delete__book {
+  margin-left: 20px !important;
+}
+
+.viewbook_title {
+  font-size: 35px;
+}
+
+.viewbook_price {
+  color: #1e504c;
+  /* border: 1px solid #1e504c; */
+  border-radius: 5px;
+  width: 70px;
+}
+
+button {
+  background-color: #1c504c !important;
+  color: white !important;
+  font-size: 17px !important;
+  border-radius: 20px;
+}
+
+button:hover {
+  background-color: #29918a !important;
+  color: white !important;
+}
+
+@media screen and (max-width: 768px) {
+  .viewbook {
+    height: 160vh;
+  }
+
+  .viewbook_box {
+    background-color: #eceff3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.2);
+    width: 90%;
+  }
+
+  .viewbook_left {
+    width: 80%;
+    margin-top: 10px;
+    background-color: #f7f8fa;
+    height: 32% !important;
+    text-align: center;
+  }
+
+  .viewbook_information {
+    width: 80%;
+    margin-left: 10px;
+    margin-top: 30px;
+    padding: 30px;
+    background-color: #f7f8fa;
+    height: 60%;
+  }
+
+  .viewbook_title {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .viewbook_author,
+  .viewbook_department,
+  .viewbook_condition,
+  .viewbook_isbn,
+  .viewbook_username,
+  .viewbook_price {
+    font-size: 13px;
+  }
+
+  .viewbook__button {
+    font-size: 10px !important;
+  }
+
+  .viewbook_isbn {
+    word-wrap: break-word;
+  }
+
+  .viewbook_image {
+    height: 300px !important;
+    width: 220px !important;
+  }
+  .comment__username {
+    font-size: 13px;
+  }
+  .each__comment {
+    font-size: 3px;
+  }
+}
+
+.comment-box {
+  background-color: #eceff3;
+  /* width: 75vh; */
+  height: 40%;
+  /* border: 2px solid black; */
+  padding: 2vh;
+  margin-top: 20px;
+  margin-bottom: 5vh;
+  /* scroll-behavior: smooth; */
+  /* position: relative; */
+  box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.2);
+}
+.comment-box h4 {
+  text-align: center;
+  font-size: 20px;
+}
+textarea {
+  border: none;
+  border-bottom: 3px solid black;
+  background-color: transparent;
+  outline: none;
+  height: 40px;
+  width: 100%;
+  color: black;
+  font-size: 16px;
+}
+.comments {
+  padding: 1%;
+  width: 96%;
+  border: 1px solid #000;
+  background-color: white;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.comment__box {
+  background-color: rgb(221, 220, 220);
+  width: 100%;
+  height: 20%;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  font-size: 13px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.comment__input {
+  display: flex;
+}
+
+#addcomment {
+  font-size: 13px !important;
+  position: absolute;
+  margin-top: 22px;
+  margin-left: -65px !important;
+  border-radius: 0px 20px 20px 0px;
+}
+
+.leave__comment {
+  margin-bottom: 5px;
+}
+
+.each__comment__div {
+  height: 64%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  /* background-color: rgb(214, 213, 213); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.each__comment {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4px;
+  border-radius: 3px;
+  margin-left: 8px;
+}
+
+.comment__indiv {
+  width: 98%;
+  padding: 3px;
+  background-color: rgb(223, 219, 219);
+  margin-top: 8px;
+  margin-bottom: 5px;
+  border-radius: 15px;
+}
+
+.comment__username {
+  margin-left: 8px;
+  font-weight: 600;
+}
+
+.delete__button {
+  color: red !important;
+  margin-left: 10px !important;
+}

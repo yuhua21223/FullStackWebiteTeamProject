@@ -1,0 +1,37 @@
+/* button[submit] {
+  color: #28918a !important;
+} */
+
+.signup__btn {
+  background-color: #18504c !important;
+  border: none !important;
+}
+
+.signup__btn:hover {
+  border: 1px solid #18504c !important;
+  color: white !important;
+  background-color: #47afa8 !important;
+}
+.MuiFormHelperText-root {
+  color: red !important;
+}
+
+.input__field {
+  margin-bottom: 20px !important;
+  font-size: 50px !important;
+}
+.signup__link {
+  margin-top: 15px;
+}
+
+.terms__link {
+  text-decoration: none;
+  color: #5d6bc1;
+  font-size: 13px;
+  margin-left: 20px;
+}
+
+.terms__checkbox {
+  font-size: 15px;
+  font-weight: 100;
+}

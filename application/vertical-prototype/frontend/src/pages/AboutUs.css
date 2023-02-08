@@ -1,0 +1,42 @@
+.container {
+  padding: 10px;
+  text-align: center;
+}
+
+.main_header {
+  font-size: 50px;
+  width: 80%;
+  /* margin: 0 auto; */
+}
+
+.aboutus__title {
+  font-size: 70px;
+  font-weight: 900;
+  color: #1a504c !important;
+}
+
+.sub_container {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 45px;
+  text-align: left;
+}
+
+.bold {
+  font-weight: 900 !important;
+  color: #1a504c;
+}
+
+h2 {
+  font-size: 35px !important;
+}
+
+p {
+  font-size: 25px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+h4 {
+  color: black;
+}

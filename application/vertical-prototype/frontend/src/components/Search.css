@@ -1,0 +1,9 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  height: 10vh;
+  position: sticky;
+  z-index: 1;
+}

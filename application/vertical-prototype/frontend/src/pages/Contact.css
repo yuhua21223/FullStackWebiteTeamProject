@@ -1,0 +1,30 @@
+.container {
+  min-height: 80vh;
+
+  text-align: center;
+}
+
+.main_header {
+  font-size: 50px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.sub_container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.bold {
+  font-weight: 900 !important;
+}
+
+h2 {
+  font-size: 35px !important;
+}
+
+p {
+  font-size: 25px;
+  padding-left: 20px;
+}

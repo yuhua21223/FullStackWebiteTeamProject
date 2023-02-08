@@ -1,0 +1,155 @@
+.MuiFormHelperText-root {
+  color: red !important;
+}
+
+.input__field {
+  margin-bottom: 20px !important;
+}
+
+.signin__link {
+  margin-top: 15px;
+}
+
+.profile__Container {
+  /* border: 1px solid #18504c !important; */
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  height: 130vh;
+  border-radius: 20px;
+  margin-left: 7.5%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 3px 5px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.top {
+  background-color: #20736dc9 !important;
+  /* height: 200px; */
+  border-radius: 20px 20px 0px 0px;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.image_container {
+  display: flex;
+  justify-content: center;
+}
+
+.image_circle {
+  /* width: 270px;
+  height: 270px; */
+  width: 170px;
+  height: 170px;
+  top: 60px;
+  position: relative;
+  background-color: #d5e8d4d7;
+  border: 1px solid black;
+  /* border-radius: 250px; */
+  border-radius: 50%;
+  display: block;
+  text-align: center;
+}
+
+.image_circle_seller {
+  /* width: 270px;
+  height: 270px; */
+  width: 170px;
+  height: 170px;
+
+  position: relative;
+  background-color: #d5e8d4d7;
+  border: 1px solid black;
+  /* border-radius: 250px; */
+  border-radius: 50%;
+  display: block;
+  text-align: center;
+}
+
+.user_information {
+  /* height: 350px; */
+  height: 38%;
+  position: relative;
+  top: 40px;
+  margin-top: 20px;
+  text-align: center;
+  /* margin: auto; */
+}
+
+.user_profile_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profile_username {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.profile_email {
+  font-size: 25px;
+}
+
+.rating_num {
+  font-size: 60px;
+}
+
+.rating_vis {
+  position: relative;
+  margin: auto !important;
+}
+
+.stars {
+  position: relative;
+  display: inline-block;
+  margin: auto !important;
+}
+
+.user_books_container {
+  height: 42%;
+  width: 100%;
+  border-radius: 0px 0px 20px 20px;
+
+  background-color: #e6e6e6;
+}
+
+.user_books_container h2 {
+  /* position: relative; */
+  padding: 10px;
+  font-size: 25px;
+}
+
+.button_container {
+  float: right;
+  right: 30px;
+  top: 30px;
+}
+
+.delete_button {
+  border: 1px solid #1a504c !important;
+  font-size: 15px !important;
+  border-radius: 5px;
+  right: 10px;
+
+  /* width: 175px; */
+  width: 100px;
+}
+
+.save_button {
+  background-color: #1a504c !important;
+  font-size: 15px !important;
+  border-radius: 5px;
+  width: 100px;
+  color: white !important;
+  right: 20px;
+}
+
+.save_button:hover {
+  background-color: #31837d !important;
+}
+.delete_button:hover {
+  background-color: #1a504c !important;
+  color: white !important;
+}

@@ -1,0 +1,115 @@
+.ratingmessage {
+  height: 100vh;
+}
+
+.MuiFormHelperText-root {
+  color: red !important;
+}
+
+.input__field {
+  margin-bottom: 20px !important;
+}
+
+.signin__link {
+  margin-top: 15px;
+}
+
+.main__container {
+  background-color: white !important;
+  width: 100%;
+  /* height: 1100px; */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ratingmessage__top {
+  height: 20%;
+}
+
+.thankyou__text {
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 2px;
+  /* padding-top: 10px; */
+}
+
+.confirmation__text {
+  text-align: center;
+  font-size: 15px;
+}
+
+.confirmation__text2 {
+  text-align: center;
+  font-size: 19px;
+  letter-spacing: 1px;
+}
+
+.user__rating {
+  height: 80%;
+}
+
+.rating_container {
+  /* position: relative; */
+  /* height: 100%; */
+  width: 100%;
+
+  /* display: block !important; */
+}
+
+.stars_container {
+  text-align: center;
+  margin: 0 auto !important;
+  /* display: table !important; */
+  width: 30%;
+  height: 150px;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding-left: 8%;
+  padding-right: 8%; */
+  background-color: #f7f8fa;
+  border-radius: 5px;
+  margin-bottom: 20px !important;
+  box-shadow: 2px 2px 7px 1px rgba(0, 0, 0, 0.2);
+}
+
+.stars__username {
+  letter-spacing: 2px;
+  font-size: 30px;
+  word-wrap: unset;
+}
+
+@media screen and (max-width: 768px) {
+  .main__container h1 {
+    font-size: 25px;
+  }
+
+  .main__container h2 {
+    /* text-align: center; */
+    font-size: 20px;
+  }
+  .rating_container {
+    position: relative;
+    width: 60%;
+    display: block !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main__container h1 {
+    font-size: 25px;
+  }
+
+  .main__container h2 {
+    /* text-align: center; */
+    font-size: 20px;
+  }
+  .rating_container {
+    position: relative;
+    width: 60%;
+    display: block !important;
+  }
+}

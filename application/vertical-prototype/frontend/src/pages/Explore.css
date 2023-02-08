@@ -1,0 +1,25 @@
+.explore__container {
+  height: 100vh;
+}
+
+.footer__div {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+/* .about {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  height: 80vh;
+  position: relative;
+  z-index: 1; */
+
+.sidebar__container {
+  height: 120vh;
+}

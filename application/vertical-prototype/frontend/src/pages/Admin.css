@@ -1,0 +1,58 @@
+.admin__page {
+  height: 100vh;
+  /* background-color: rgb(241, 240, 240); */
+}
+
+.admin__div {
+  background-color: rgb(241, 240, 240);
+}
+.tr {
+  width: 75%;
+  height: 100%;
+  margin-bottom: 30px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.side {
+  width: 20%;
+  margin-left: 10px;
+  height: 50%;
+  background-color: rgb(241, 240, 240);
+
+  /* border: black solid 2px; */
+  box-shadow: 2px 3px 2px 3px rgba(0, 0, 0, 0.2);
+}
+table {
+  /* border: black solid 4px; */
+}
+th {
+  /* border: black solid 4px; */
+  padding: 20px;
+}
+
+.totalContainer {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.total__heading {
+  text-align: center;
+  font-weight: 500;
+  font-size: 40px;
+  border-top: 3px solid rgb(50, 83, 67);
+  margin-bottom: 20px;
+  margin-top: 3px;
+}
+
+@media screen and (max-width: 768px) {
+  .total__card {
+    font-size: 15px !important;
+  }
+  .total__card__amount {
+    font-size: 18px !important;
+    font-weight: 700 !important;
+  }
+  .tr {
+    margin-left: 3px;
+  }
+}

@@ -1,0 +1,94 @@
+.faq__container {
+  width: 100%;
+  height: 120vh;
+  /* background: linear-gradient(to right, #b1d4cd, #2a7d80); */
+  background-image: url('./book1.jpg');
+}
+
+.faq {
+  /* height: 100vh; */
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.faq__qs {
+  font-size: 30px !important;
+}
+
+.faq__accor {
+  border-radius: 10px !important;
+  margin-bottom: 20px !important;
+}
+
+.expand__icon {
+  color: #1a504c !important;
+  font-size: 40px !important;
+  font-weight: 800 !important;
+}
+
+.faq__answers {
+  font-size: 20px !important;
+  font-style: italic !important;
+}
+
+.faq__details {
+  border-top: 1px solid black !important;
+}
+
+.faq_div {
+  width: 90%;
+}
+
+@media screen and (max-width: 992px) {
+  .faq__accor {
+    border-radius: 10px !important;
+    margin-bottom: 20px !important;
+  }
+  .expand__icon {
+    color: #1a504c !important;
+    font-size: 30px !important;
+    font-weight: 800 !important;
+  }
+
+  .faq__answers {
+    font-size: 14px !important;
+    font-style: italic !important;
+  }
+  .faq__qs {
+    font-size: 20px !important;
+  }
+  .faq__container {
+    width: 100%;
+    height: 130vh;
+    /* background: linear-gradient(to right, #b1d4cd, #2a7d80); */
+    background-image: url('./book1.jpg');
+  }
+}
+@media screen and (max-width: 600px) {
+  .faq__accor {
+    border-radius: 10px !important;
+    margin-bottom: 20px !important;
+  }
+  .expand__icon {
+    color: #1a504c !important;
+    font-size: 30px !important;
+    font-weight: 800 !important;
+  }
+
+  .faq__answers {
+    font-size: 10px !important;
+    font-style: italic !important;
+  }
+  .faq__qs {
+    font-size: 17px !important;
+  }
+  .faq__container {
+    width: 100%;
+    height: 130vh;
+    /* background: linear-gradient(to right, #b1d4cd, #2a7d80); */
+    background-image: url('./book1.jpg');
+  }
+}

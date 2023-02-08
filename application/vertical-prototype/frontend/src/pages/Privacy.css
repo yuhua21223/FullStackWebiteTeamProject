@@ -1,0 +1,41 @@
+.banner {
+  background-color: rgb(50, 136, 136);
+  position: fixed;
+  width: 100%;
+  height: 280px;
+  top: auto;
+}
+.h2 {
+  text-align: center;
+  font-size: 1.5vw;
+  color: #1a504c;
+}
+.privacy__body {
+  width: 700px;
+  height: 100vh;
+  margin: 60px auto;
+  background-color: white;
+  position: relative;
+  text-align: left;
+  font-size: 1vw;
+  color: black;
+  border-style: double;
+}
+.heading {
+  text-align: center;
+  font-size: 70px;
+  color: #1a504c;
+}
+.home {
+  border: none;
+  outline: none;
+  height: 30px;
+  width: 160px;
+  /* width: 70%; */
+  margin-bottom: 10px;
+  background-color: rgb(38, 100, 100);
+  color: white;
+  font-size: 15px;
+  border-radius: 40px;
+  margin-left: 33px;
+}

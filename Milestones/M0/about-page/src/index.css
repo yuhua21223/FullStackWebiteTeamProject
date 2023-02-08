@@ -1,0 +1,45 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about {
+  color: black;
+  flex: 1;
+  font-size: 40px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.info {
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: black;
+}
+
+.name {
+  font-size: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.photo {
+  height: 250px;
+  border-radius: 50%;
+  border: 5px solid black;
+  cursor: pointer;
+  transition: transform 0.2s;
+  margin-bottom: 20px;
+}
+
+.photo:hover {
+  transform: scale(1.01);
+}
+
+.infoCards {
+  display: flex;
+  justify-content: space-around;
+}
