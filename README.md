@@ -1,61 +1,29 @@
-# csc648 Repository
+# iShareBook-website
 
-## Please when ready add your teams application URL or IP to the repository description. This will help with grading. Teams are expected to keep this value up to date.
+Software Engineering web application project with my six other classmates at San Francisco State University.
 
-## Please do the following steps before completing Milestone 0.
-1. Change the name of the repository. All that needs to change is the NN to your respective team number. Team numbers whose value is less than 10, please pad with a 0. Ex team 1 is Team01 team 11 is Team11. Please make sure to also remove the username from the repository as well. Teams with incorrectly name repository will have points deducted from their milestone 0 grades.
-      - Please follow the naming convention assigned by your instructor.
+Project Overview:
 
-1. PLEASE REMOVE THE USERNAME FROM THE REPOSITORY NAME!!!
+An e-commerce website that allows user to sell, buy, trade used book at minimum cost. 
 
-2. Add ALL members of your team to this repository. For it to count, they must ACCEPT the invite.
-
-3. Fill out the table below
+<img width="952" alt="Screen Shot 2021-08-02 at 8 30 48 PM" src="https://user-images.githubusercontent.com/58201393/127954718-c4c3d802-3e40-42d9-b563-7b521c9f0a2d.png">
 
 
-| Student Name          | GitHub Username |
-|    :---:        |     :---:              |
-| Yangesh KC      |    |yogeskc          |
-| Danish Siddiqui | |danish061296     |
-| Aryanna Brown   |  |aryannayazmin    |
-| AbishekNeralla  | |AbishekNeralla   |
-| Pramod Khatri   |  |pramodkhatri10   |
-| Zaid Alkkhatib  | |zaidalkhatib     |
-| Yuhua           |  |yuhua21223       |
-| Mark Jovero     | |Mark-Jovero      |
-## NO code needs to be stored in the root of your repository. You may rename the application folder if you like to your team's application name. But all source code related to your team's application should be stored inside the application folder.
+The two main objectives of the website is to allow users to get books they
+need at minimum cost from what they would pay in the school bookstore or other online
+bookstore as well as help the users who want to clear their used books.
 
+<img width="777" alt="Screen Shot 2021-08-02 at 8 31 20 PM" src="https://user-images.githubusercontent.com/58201393/127954771-b50cc109-2f7e-469d-9640-60a823c81131.png">
 
+With iSharebook, a person can list books that they no longer need
+and set a fair price for them; other people searching for books can visit the web app and, if they
+locate the book they want, they can contact the vendor and complete purchases. The customer
+will benefit from not having to spend a substantial sum of money on the books, whilst the seller
+will get a fair price for the book he or she no longer requires. “Share Book Share Knowledge! ”
+is our mantra, and it is one that we adhere to.
 
-# Credentials
+<img width="781" alt="Screen Shot 2021-08-02 at 8 31 51 PM" src="https://user-images.githubusercontent.com/58201393/127954777-b5c7ea1a-0820-4895-903d-709d3f2ba5da.png">
 
-1. Server Webpage URL: http://35.215.84.127:3000
-2. SSH username: ubuntu
-3. SSH key - download team4SWE file
-4. Database URL: "team4books.c8c9xdcpvbxl.us-east-1.rds.amazonaws.com" port: 3306
-5. Database username: root
-6. Database password: team4SWE!
-7. Database name: book
+Folders:
 
-## How to Log In to gcloud Compute SSH
-1. Download team4SWE file and store it in a secure directory. Preferabble, in ~/.ssh directory
-2. Open your terminal or command line.
-3. Type the following: ssh -i "dir/team4SWE" team4swe@35.215.84.127
-3.1 Replace dir with the location of the downloaded file.
-4. Press enter and you will now have access to the server terminal.
- * If getting a permission denied error, try running command: "sudo chmod 400 dir/team4SWE"
-
-## How to Log In to AWS RDS
-1. Use software such as MySQL Workbench or connect directly using script. For scripts, refer to the API for MySQL for that framework. If using Workbench, continue to step 2.
-2. Open MySQL Workbench
-3. In the "MySQL Connections" header, click on the (+) symbol to add a new connection. 
-4. In the popout window titled "Setup New Connection," enter a connection name of your choice.
-5. Ensure that the connection method is "Standard (TCP/IP)."
-6. Under parameters, enter the endpoint (team4books.c8c9xdcpvbxl.us-east-1.rds.amazonaws.com) in the hostname field. Enter 3306 for the port field.
-9. In the username field, enter "root."
-10. In the password, click "Store in Keychain..." In the popout, type "team4SWE!" and click "OK."
-11. Finally, click "Test Connection." This step may take a while but should return a "Successful Connection" message.
-12. Upon successful access, you may now access the database.
-
-
-(up-to-date as of 22 April 2021)
+All the source code is in the application folder.
